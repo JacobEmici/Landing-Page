@@ -9,8 +9,6 @@
     width: 1147px;
     height: 437px;
     background-image: url(src/images/bg-hero-desktop.svg);
-    border: 1px solid blue;
-    
 }
 
 .header{
@@ -78,6 +76,7 @@
 
 h1{
     margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .box-info_img{
@@ -91,7 +90,7 @@ h1{
     height: 18.5rem;
 }
 
-.information{
+.information ,.information2 ,.information3{
     width: 989px;
     height: 350px;
     border: 1px solid #cdd3cd;
@@ -100,26 +99,141 @@ h1{
     margin: 104px;
     margin-left: 55px;
     box-shadow: 0px 0px 5px 0px rgba(109, 109, 109, 0.384) ;
+    border-radius: 10px;
 }
 
 
-.box-information_description{
+.box-information_description {
     padding-left: 50px;
-    padding-bottom: 50px;
-    
+      
 }
 
 .box-information_img{
-    width: 50%;
-    padding-left: 374px;
+    width: 370px;
+    padding-left: 221px;
 }
 
 .illustration-grow-together{
-    width: 380px;
-    height: 18.5rem;
+    width: 324px;
+    height: 15.5rem;
 }
+
 
 .grow-together{
     color: #787a78cc;
+}
+
+.box-information_description2{
+    padding-left: 210px;
+    
+}
+
+.box-information_img2 {
+    width: 370px;
+    padding-left: 54px;
+
+}
+
+.Flowing-conversations{
+    color: #787a78cc;
+}
+
+.illustration-grow-together2{
+    width: 324px;
+    height: 15.5rem;
+}
+
+
+
+
+
+.box-information_description3{
+    padding-left: 50px;
+}
+
+
+.box-information_img3 {
+    width: 370px;
+    padding-left: 197px;
+
+}
+
+.your-users{
+    color: #787a78cc;
+
+}
+
+.illustration-grow-together3{
+    width: 324px;
+    height: 15.5rem;
+}
+
+
+.ready{
+    width: 730px;
+    height: 200px;
+    margin-left: 166px;
+    border-radius: 10px;
+    border: 1px solid #cdd3cd;
+    box-shadow: 0px 0px 5px 0px rgba(109, 109, 109, 0.384);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    padding-left: 100px;
     position: absolute;
+    background-color: white;
+}
+
+.ready h1{
+    margin-top: 45px;
+}
+
+.get-started{
+    width: 356px;
+    height: 54px;
+    margin-left: 64px;
+    border-radius: 50px ;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border: none;
+    margin-bottom: 32px;
+}
+
+
+footer{
+    width: 1150px;
+    height: 350px;
+    border: 1px solid red;
+    background-color: #042a28;
+    color: white;
+    margin-top: 229px;
+    padding-top: 104px;
+    padding-left: 100px;
+}
+.footer{
+    display: flex;
+}
+
+.information-footer{
+    border: 1px solid white;
+    width: 338px;
+    height: 116px;
+}
+
+.help-footer{
+    border: 1px solid white;
+    width: 200px;
+    height: 116px;
+}
+
+.contact-footer{
+    border: 1px solid white;
+    width: 165px;
+    height: 116px;
+}
+
+.social-footer{
+    border: 1px solid white;
+    width: 165px;
+    height: 116px;
 }
