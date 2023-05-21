@@ -6,14 +6,26 @@
 
 h1{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.563rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+p{
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1.875rem;
+
 }
 
 .top{
     display: flex;
     background-image: url(src/images/bg-hero-mobile.svg);
-    height: 31.25rem;
+    height: 37.25rem;
     width: 100%;
     flex-direction: column;
+    background-color: #f9f9ff;
 }
 
 .header{
@@ -45,21 +57,9 @@ h1{
 
 .box-info_description{
     margin-top: 3.625rem;
-}
-
-
-h1{
-    font-size: 1.563rem;
     display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-}
-
-p{
-    font-size: 0.938rem;
-    text-align: center;
-    margin-top: 1.875rem;
-
+    align-items: center;
+    flex-direction: column;
 }
 
 .for-free{
