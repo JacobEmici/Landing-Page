@@ -126,9 +126,10 @@ p{
     height: 9.375rem;
     border-radius: 0.938rem;
     box-shadow: 1px 1px 7px 1px rgba(170, 169, 169, 0.459);
-    margin-top: 9.375rem;
+    margin-top: 3.375rem;
     margin-left: 0.75rem;
-    
+    background-color: white;
+    position: absolute;
 }
 
 .ready h1{
@@ -147,3 +148,90 @@ p{
     box-shadow: 3px 4px 5px 1px rgba(150, 149, 149, 0.507);
 }
 
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(1, 43, 43, 0.932);
+    padding-top: 7.188rem;
+    color: white;
+    margin-top: 134px;
+
+}
+
+.logo-footer{
+    width: 5.625rem;
+    height: 1.375rem;
+}
+
+@media screen and (min-width: 1024px) {
+    
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .top{
+        background-image: url(src/images/bg-hero-desktop.svg);
+        width: 100%;
+        height: 500px;
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        
+    }
+
+    .img-logo{
+        width: 108px;
+        height: 20px;
+    }
+
+    .it-free{
+        width: 138px;
+        height: 25px;
+        margin-left: 625px;
+    }
+
+    .box-info_description{
+        width: 386px;
+        text-align: left;
+    }
+    .box-info_description h1{
+        text-align: left;
+        margin-right: 125px;
+    }
+
+    .box-info_description p{
+        text-align: left;
+    }
+
+    .for-free{
+        margin-left: 1px;
+    }
+
+    
+    .box-info{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 45px;
+        margin-top: 110px;
+    }
+
+    .box-info_img{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin-top: -100px;
+    }
+
+    .illustration-mockups{
+        width: 510px;
+        height: 380px;
+    }
+
+    .information, .information2, .information3, .ready{
+        margin-left: 50px;
+        width: 90%;
+    }
+}
